@@ -1,0 +1,136 @@
+.heading {
+  margin-top: 30px;
+  margin-left: 25%;
+}
+
+.article-form {
+  margin-top: 25px;
+  font-family: "Assistant Regular";
+}
+
+.form-heading {
+  margin-left: 25%;
+}
+
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Assistant Light";
+  border: 1px solid var(--color-silver);
+}
+
+.form-control-input {
+  width: 66.5%;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border: 1px solid var(--color-silver);
+}
+
+.evidence-attachment {
+  outline: 0;
+  background-color: transparent;
+  margin-right: 3%;
+}
+
+.evidence-attachment:hover,
+.evidence-attachment:focus {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid var(--color-port-gore);
+  color: var(--color-port-gore);
+}
+
+.evidence-attachment-options {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.evidence-library-container {
+  display: flex;
+  margin-left: 25%;
+}
+
+.evidence-library {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.evidence-library-img {
+  display: flex;
+  height: 100px;
+}
+
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type="radio"] + img {
+  cursor: pointer;
+}
+
+[type="radio"]:hover + img {
+  outline: 1px solid #000;
+}
+
+[type="radio"]:checked + img {
+  outline: 1px solid #000;
+}
+
+.write.col-sm-1 {
+  margin-left: 22.5%;
+  margin-bottom: 20px;
+}
+
+.write.col-sm-1 .form-heading {
+  margin-left: 25%;
+}
+
+.write.col-sm-1 .form-control {
+  height: 45px;
+  width: 85%;
+  margin-left: 25%;
+}
+
+.write.col-sm-2 .form-heading {
+  margin-left: 7%;
+}
+
+.write.col-sm-2 .form-control {
+  height: 45px;
+  width: 85%;
+}
+
+#summary {
+  height: 100px;
+}
+
+#content {
+  height: 200px;
+}
+
+.publish-button {
+  width: 10%;
+  margin-left: 25%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  transition: 0.3s;
+  font-family: "Assistant Light";
+}
+
+.publish-button:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}

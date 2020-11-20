@@ -1,0 +1,117 @@
+.user {
+  float: right;
+  margin-top: 15px;
+}
+
+.avatar {
+  margin-top: 20px;
+}
+
+.reputation {
+  float: right;
+  clear: both;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: var(--color-victoria);
+  font-size: 20px;
+}
+
+.bio-container {
+  float: right;
+  clear: both;
+}
+
+.bio {
+  height: 30px;
+  width: 570px;
+  border: none;
+  font-family: "Assistant Light";
+  transition: 0.3s;
+}
+
+.bio:focus {
+  outline: none;
+  border-bottom: 1px solid var(--color-koromiko);
+}
+
+.edit-icon {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-icon:hover {
+  color: var(--color-koromiko);
+}
+
+.follow {
+  float: right;
+  clear: both;
+  width: 20%;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: "Assistant Light";
+  transition: 0.3s;
+}
+
+.follow:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.options {
+  float: right;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.option {
+  border: none;
+  background-color: transparent;
+}
+
+.option:hover,
+.option:focus {
+  outline: 0;
+  border-bottom: 1px solid var(--color-port-gore);
+  color: var(--color-port-gore);
+}
+
+.read-button-container {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  background-color: var(--color-black);
+  transition: 0.3s;
+  font-family: "Assistant Light";
+  text-align: center;
+}
+
+.read-button-container a {
+  color: var(--color-white);
+}
+
+.gift-icon-container {
+  width: 40%;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  background-color: var(--color-black);
+}
+
+.gift-icon {
+  color: var(--color-white);
+}
+
+.alert-icon {
+  margin-left: 5px;
+  color: red;
+}

@@ -1,0 +1,141 @@
+.home {
+  background-color: var(--color-victoria);
+}
+
+.sticky-top {
+  background-color: var(--color-port-gore);
+}
+
+.home-navigation-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-item {
+  margin-left: 80px;
+}
+
+.nav-link {
+  font-family: "Assistant Light" !important;
+  color: var(--color-melrose) !important;
+}
+
+.action {
+  width: 60%;
+  margin: 60px;
+  margin-top: 7px;
+  margin-bottom: 0;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Assistant Light";
+  font-size: 17px;
+  color: var(--color-koromiko);
+  background-color: var(--color-koromiko-transparent);
+  border: 1px solid var(--color-koromiko);
+  border-radius: 20px;
+}
+
+.graphics {
+  height: 80%;
+  width: 80%;
+  color: var(--color-koromiko);
+  background-size: cover;
+}
+
+.graphics.right {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.home.row {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home.col-sm-1,
+.home.col-sm-2 {
+  min-width: 30%;
+}
+
+.heading-1 {
+  width: 100%;
+  margin: 50px;
+  margin-top: 150px;
+  margin-bottom: 0;
+  font-size: 70px;
+  font-family: "Glacial Indifference Regular";
+  color: var(--color-koromiko);
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: "Glacial Indifference Regular";
+  font-size: 45px;
+  color: var(--color-koromiko);
+}
+
+.heading-3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Glacial Indifference Regular";
+  font-size: 45px;
+  color: var(--color-koromiko);
+}
+
+.heading-4 {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Glacial Indifference Regular";
+  font-size: 50px;
+  color: var(--color-koromiko);
+}
+
+.sub-heading {
+  margin: 50px;
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family: "Assistant Light";
+  color: var(--color-melrose);
+}
+
+.text-left {
+  font-size: 19px;
+  text-align: left;
+  color: var(--color-melrose);
+}
+
+.text-right {
+  font-size: 19px;
+  text-align: right;
+  color: var(--color-melrose);
+}
+
+.footer {
+  margin: auto;
+  padding: 20px;
+  background-color: var(--color-port-gore);
+}
+
+.footer-logo {
+  margin-left: 50%;
+}
+
+.footer-link {
+  color: var(--color-koromiko);
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--color-melrose);
+}
+
+.footer.action {
+  width: 30%;
+  padding: 2px;
+  background-color: var(--color-koromiko-transparent);
+}

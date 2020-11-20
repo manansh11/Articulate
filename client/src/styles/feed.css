@@ -1,0 +1,130 @@
+.feed-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.following-column {
+  max-width: 12%;
+  margin-right: 5%;
+}
+
+.feed-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feed-heading-2 {
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
+.feed.row {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.feed.col-sm-0 {
+  display: grid;
+}
+
+.feed.col-sm-1 {
+  max-width: 70%;
+}
+
+.reader-info {
+  margin-bottom: 20px;
+}
+
+.stats {
+  margin-left: 5px;
+}
+
+.author-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Assistant Light";
+}
+
+.feed.author-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.evidence-img {
+  height: 173px;
+  width: 240px;
+  border-radius: 5px;
+}
+
+.verification-badge {
+  background-color: var(--color-koromiko);
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.verification-icon {
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.purchase-article-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 6px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-family: "Assistant Light";
+  transition: 0.3s;
+}
+
+.purchase-article-button:hover,
+.purchase-article-button-2:hover,
+.evidence-button:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.purchase-article-button-2 {
+  width: 45%;
+  margin-top: 15px;
+  padding: 6px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-family: "Assistant Light";
+  transition: 0.3s;
+}
+
+.evidence-button {
+  width: 45%;
+  margin-top: 15px;
+  margin-right: 30px;
+  padding: 6px;
+  border: 1px solid var(--color-black);
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-family: "Assistant Light";
+  transition: 0.3s;
+}
+
+.followed-user {
+  display: flex;
+}
+
+.followed-user-link {
+  margin-left: 10px;
+  color: var(--color-black);
+}
+
+.followed-user-link:hover {
+  color: var(--color-victoria);
+}

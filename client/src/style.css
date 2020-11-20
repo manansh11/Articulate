@@ -1,0 +1,47 @@
+/* Imports */
+@import "./styles/home.css";
+@import "./styles/dashboard.css";
+@import "./styles/feed.css";
+@import "./styles/write.css";
+@import "./styles/article.css";
+
+/* General */
+@font-face {
+  font-family: "Glacial Indifference Bold";
+  src: url("./media/glacial-indifference-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Glacial Indifference Regular";
+  src: url("./media/glacial-indifference-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Assistant Regular";
+  src: url("./media/assistant-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Assistant Light";
+  src: url("./media/assistant-light.ttf") format("truetype");
+}
+
+body {
+  font-family: "Glacial Indifference Bold";
+}
+
+p {
+  font-family: "Assistant Light";
+}
+
+:root {
+  --color-koromiko: #ffbd59;
+  --color-koromiko-transparent: #ffbd5956;
+  --color-port-gore: #262262;
+  --color-victoria: #494589;
+  --color-melrose: #a49eff;
+  --color-white: #ffffff;
+  --color-silver: #c2c2c2;
+  --color-boulder: #7a7a7a;
+  --color-black: #000000;
+}
