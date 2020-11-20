@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Articulate/static/css/main.b585f5bd.chunk.css",
+    "main.js": "/Articulate/static/js/main.98a03cb0.chunk.js",
+    "main.js.map": "/Articulate/static/js/main.98a03cb0.chunk.js.map",
+    "runtime-main.js": "/Articulate/static/js/runtime-main.480c915f.js",
+    "runtime-main.js.map": "/Articulate/static/js/runtime-main.480c915f.js.map",
+    "static/css/2.aab2990a.chunk.css": "/Articulate/static/css/2.aab2990a.chunk.css",
+    "static/js/2.8bba56ac.chunk.js": "/Articulate/static/js/2.8bba56ac.chunk.js",
+    "static/js/2.8bba56ac.chunk.js.map": "/Articulate/static/js/2.8bba56ac.chunk.js.map",
+    "index.html": "/Articulate/index.html",
+    "precache-manifest.ca86e044d3080059c0c5543a60a4483f.js": "/Articulate/precache-manifest.ca86e044d3080059c0c5543a60a4483f.js",
+    "service-worker.js": "/Articulate/service-worker.js",
+    "static/css/2.aab2990a.chunk.css.map": "/Articulate/static/css/2.aab2990a.chunk.css.map",
+    "static/css/main.b585f5bd.chunk.css.map": "/Articulate/static/css/main.b585f5bd.chunk.css.map",
+    "static/js/2.8bba56ac.chunk.js.LICENSE.txt": "/Articulate/static/js/2.8bba56ac.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Articulate/static/media/glacial-indifference-regular.2abec019.ttf",
+    "static/media/favicon.ico": "/Articulate/static/media/favicon.ca876553.ico",
+    "static/media/header.png": "/Articulate/static/media/header.44120470.png",
+    "static/media/megaphone.png": "/Articulate/static/media/megaphone.4c155ee9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.480c915f.js",
+    "static/css/2.aab2990a.chunk.css",
+    "static/js/2.8bba56ac.chunk.js",
+    "static/css/main.b585f5bd.chunk.css",
+    "static/js/main.98a03cb0.chunk.js"
+  ]
+}
